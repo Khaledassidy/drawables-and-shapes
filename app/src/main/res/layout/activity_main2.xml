@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/image_background"
+        app:srcCompat="@drawable/user" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/user" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/edittext_bg"
+            android:inputType="text"
+            android:hint="Enter your Email">
+
+        </EditText>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="**************"
+            android:paddingLeft="10dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginLeft="7dp"
+            android:inputType="textPassword">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:textColor="@color/login_login_border"
+            android:background="@drawable/login_button_background"
+            android:text="login"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:textColor="@color/login_login_border"
+            android:background="@drawable/register_button_background"
+            android:text="Regester"></Button>
+    </LinearLayout>
+
+    <!--keen fene 7ot sourten btare2a tenye 2a3mel drawble left w7out soura w 2a3mel drawble padding w2a3mela padding-->
+
+
+</LinearLayout>

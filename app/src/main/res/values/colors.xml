@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#2941C6</color>
+    <color name="red">#D31F11</color>
+
+
+<!--    login screen color-->
+    <color name="login_gray_border">#6B6B6B</color>
+    <color name="login_gray_bg">#DADADA</color>
+    <color name="login_register_bg">#CE5c73</color>
+    <color name="login_register_border">#6B212F</color>
+    <color name="login_login_bg">#64c678</color>
+    <color name="login_login_border">#0C610A</color>
+
+</resources>

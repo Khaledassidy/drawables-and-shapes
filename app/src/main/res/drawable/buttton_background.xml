@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    ba3d ma 3mlt drawle file
+ byetla3 3ande she esmo selector ana bade esta5dem sha8lten shape,selector
+
+ selector:fekrto eno mn5elel ta3amoul ma3 action mo3yane bye2dar yezhrele shakl mo3ayan
+ l ma3na eno lama l user yed8at 3ala l button ya3mele shakl m3ayan lama l user ya3mel hover(ymare2 l mouse 3ala l view:button) 3ala l button tseer l button shakla 8eer
+ ya3ne selector bene2an 3ala action event  mo3ayan bya3mele shakl mo3ayan
+
+jowet l selector fe attribute esmo <item>
+<item> joweto bye5tar l 7ale le ne7na badna na3mel action 3lyha exmple
+azde bel 7ale exmple:waa2t ekbos 3al button w esma:android:state_pressed=""
+android:state_pressed="true":iza keen 7alyt l view le badak t7otolo l back ground hayde le howe l file heed le ana 3emlo le esmo:"button_background.xml" eh ya3ne iza keen 7alyt l view l user pressed true ya3ne da8et 3lee 5ale
+l drawble shaklo 2aw lawno:android:drawable="#C91313" houn ana ya3ne 8ayer lawno
+
+
+<item> tene iza ma keen makbous 3al zer
+android:state_pressed="false" ya3ne iza keen l user mano da8er 3ala heed l view le howe l button
+5ale shaklo 2aw lawno kaza houn ana bade 8ayerlo lawno la azra2:android:drawable="#2941C6"
+
+
+note iza bade 7ot color lezm koun m3aref bel colors text 2aw aye she lezm koun m3arefoun iza color b file l colors.xml iza text bel strings.xml
+-->
+
+    <item  android:state_pressed="true" android:drawable="@color/red"/>
+    <item android:state_pressed="false" android:drawable="@color/blue"/>
+</selector>

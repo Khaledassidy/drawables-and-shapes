@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    drawble:fena n5azen sowar b2alba w momken ta5zen malafet xml bda5ela
+ya3ne aye she mne2dar norsmo 3al shshe mn 5azno b2alb folder l drawble ema 3ala shakl sowar 2aw 3ala shakl file xml
+picture have many type:png,jpg,gif,svg,aw import la png w la7alo byet7awal la7alo la svg
+file xml:file xml norsmo ashkel (shapes) bede5lo beste5dem code xml w heed shape mnesta5dmo ka backgroung la aye view
+-->
+
+<!--    2awln la tezbat mnzabet theme mn2em l material3-->
+
+
+<!--  bas nblesh badna na3mel shape 2aw aye she bel drawble:righclick on drawlbe__>new drawle resouce file__>name the file exmple button back ground__>directory name ween bade 5azno bel drawble__>available qulifier heye iza bade 5aseso la shshe m3yane la balad m3ayn la density m3ayne bas ana ma bade 7ot she hala2 so bekbos next  -->
+
+<!--ba3d ma 3mlt file l xml le smo button.background.xml ba3mel button w b7ot hedd l file ka background la heeda l button 2aw aye view-->
+
+
+<!--    ba3d ma 5lst shape 7atyt l back ground kamen 3ala button click me 2 b mnshof eno 3atoul  iza 7atyt width w height lal shape bey5doun nafsoun zetoun-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="click me"
+        android:background="@drawable/buttton_background">
+
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="click me 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

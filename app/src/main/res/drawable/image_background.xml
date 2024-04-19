@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<padding android:bottom="24dp" android:top="24dp" android:left="24dp" android:right="24dp"/>
+    <solid android:color="@color/login_gray_bg"/>
+    <stroke android:width="2dp" android:color="@color/login_gray_border" android:dashGap="10dp" android:dashWidth="10dp"/>
+    <corners android:radius="50dp"/>
+<!--    5atyta 50 lal redius l2no ana bade yeha de2ra w 7ateta fixed honek la texbat 2soma 3a tnen 100/2=50 so 50dp iza 7atyta aktr mn 50 ma b2asse bas iza 2a2l btentez3-->
+
+</shape>

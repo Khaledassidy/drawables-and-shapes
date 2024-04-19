@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    ba3d ma 5alsan 3an selector 2olna fe sha8lten selector 2aw shape
+shape: shakl la view ana ba3mlo bas heed mesh mn 5elel action 3ade feek t7oto mn 5elel acction enta w 3am ta3ml selctor bt7oto bel drawnle w esm l file 2aw
+bte7to ka shape la aye view bala action
+
+tags inside the shape:
+
+<solid bya3mel ta3be2a lal color le badak t7oto:<solid android:color="@color/blue"/>
+<corners mn5eleo bta3mle 7awef de2reye lal shape b redius mo3ayn
+ya redius la kel nawe7e ta3mel curve 2aw btna2e ne7ye m3ayane
+
+<stroke l 2etar l shape deyer mn daro lal view feek t7aded l color,width
+lal shape deyer mn daro l etar ta3oulo\
+w fe ba3d 2 attribute l hone:dashwidth,dashgap
+haw l tnen iza badak ta3mel 5at mo2ata3 lal hedd lawno 2a7mar 3ala shakl dash w space
+dashwidth: 7ajm dash bel 3ard lal 5at l m2ata3 l width ta3oulo
+dashgap:adesh l masefe been kel 5at m2ata3
+
+<size bt7aded l width w l height lal shape bas yofadal ma t7adedo 3ashen ye5od 3ajm l 3onsour lal badak yeh ya3ne wrap content
+
+<gradinat bt7aded tadroj l 2alwen ta3el shape start ta3elo l end l center sho lawnon
+fe 5asa2es la l start w end w l center mtl:
+centerX:center taba3 tadaroj ween bado ykoun
+centerY:center taba3 tadaroj ween bado ykoun
+type:shakl tadroj bshakl da2era wala linear(deffult)
+angle:zeweye taba3 tadaroj
+uselevel: 3ashen ybayen far2 loun byesta3ml kamen ma3 redial
+radientRadius redius taba3 l grudiant tadaroj byesta3ml ma3 type redial l linear w sweep ma byezbat 3lyhoun
+<padding padding lal 3onsour l katebe le b2albo fene 7adedoun houn badel ma 7adedoun bel activity
+-->
+<solid android:color="@color/blue"/>
+<corners android:radius="20dp"/>
+<stroke android:color="@color/red"
+    android:width="3dp"
+    android:dashWidth="7dp"
+    android:dashGap="4dp"/>
+<size android:width="100dp" android:height="100dp"/>
+
+<gradient android:startColor="@color/red"   android:endColor="@color/blue"   android:centerColor="@color/white"/>
+<padding android:left="3dp"/>
+</shape>
